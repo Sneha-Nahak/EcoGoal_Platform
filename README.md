@@ -6,8 +6,8 @@ EcoGoals is a full-stack web application designed to help users build and mainta
 
 ## 🔗 Live Demo
 
-[Deployed on Vercel](https://your-vercel-link.vercel.app)  
-*(Replace this with your actual deployment URL)*
+[Deployed on Vercel](https://eco-goal-platform.vercel.app/)  
+
 
 ---
 
