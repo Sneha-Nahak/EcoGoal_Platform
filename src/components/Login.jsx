@@ -9,8 +9,8 @@ const VITE_API_AUTH_URL = import.meta.env.VITE_API_AUTH_URL;
 
 const Login = () => {
   const { login } = useContext(AuthContext);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("john.doe@gmail.com");
+  const [password, setPassword] = useState("john123");
   const navigate = useNavigate();
 
   const handleLogin = async (e) => {
@@ -66,7 +66,6 @@ const Login = () => {
                   <input
                     placeholder="Email Address"
                     value={email}
-                    defaultValue="john.doe@gmail.com"
                     onChange={(e) => setEmail(e.target.value)}
                     type="text"
                   />
@@ -75,7 +74,6 @@ const Login = () => {
                   <input
                     placeholder="Password"
                     value={password}
-                    defaultValue="john123"
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
                   />
