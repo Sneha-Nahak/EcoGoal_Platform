@@ -66,6 +66,7 @@ const Login = () => {
                   <input
                     placeholder="Email Address"
                     value={email}
+                    defaultValue="john.doe@gmail.com"
                     onChange={(e) => setEmail(e.target.value)}
                     type="text"
                   />
@@ -74,6 +75,7 @@ const Login = () => {
                   <input
                     placeholder="Password"
                     value={password}
+                    defaultValue="john123"
                     onChange={(e) => setPassword(e.target.value)}
                     type="password"
                   />
